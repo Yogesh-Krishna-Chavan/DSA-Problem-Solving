@@ -10,8 +10,8 @@ var evalRPN = function (tokens) {
     if (!operators.includes(token)) {
       stack.push(parseInt(token));
     } else {
-      const operand2 = stack.pop();
-      const operand1 = stack.pop();
+      const operand2 = stack.pop(); //pop the last element
+      const operand1 = stack.pop(); //pop the last element
 
       switch (token) {
         case "+":
