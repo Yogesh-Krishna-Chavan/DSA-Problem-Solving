@@ -18,10 +18,10 @@ var evalRPN = function (tokens) {
           stack.push(operand1 + operand2);
           break;
         case "-":
-          stack.push(operand1 - operand2);
+          stack.push(operand1 - operand2); //substract the last two elements
           break;
         case "*":
-          stack.push(operand1 * operand2);
+          stack.push(operand1 * operand2); //multiply the last two elements
           break;
         case "/":
           stack.push(Math.trunc(operand1 / operand2));
