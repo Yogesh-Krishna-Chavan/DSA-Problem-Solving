@@ -15,5 +15,7 @@ function findTripletSum(arr) {
   }
 }
 
-let arr = [0, -1, 2, -3, 1];
+// let arr = [0, -1, 2, -3, 1];
+
+let arr = [-1, 0, 1, 2, -1, -4];
 findTripletSum(arr);
