@@ -6,7 +6,7 @@ var twoSum = function (nums, target) {
 
     if (numObj.hasOwnProperty(complement)) {
       return [numObj[complement], i];
-    }
+    }a
     numObj[num] = i;
   }
   return [];
